@@ -1,0 +1,1 @@
+console.log('Hi from WP Packages Test core package');
