@@ -1,9 +1,9 @@
 {
-  "name": "@wpt/border",
+  "name": "@wpt/color",
   "version": "1.0.0",
   "main": "src/index.js",
   "wpScript": true,
-    "wpStyleEntryPoints":{
+  "wpStyleEntryPoints":{
 	  "style": "src/style.scss"
   }
 }

@@ -1,5 +1,58 @@
-*{
-	margin: auto;
-	padding: auto;
-	vertical-align: auto;
+.border-control {
+  display: grid;
+  gap: 20px;
+  max-width: 420px;
+  font-family: system-ui, sans-serif;
+
+  .controls {
+    display: grid;
+    gap: 12px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #222;
+
+      input,
+      select {
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+
+      input[type="range"] {
+        padding: 0;
+      }
+    }
+
+    .color-picker {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      input[type="color"] {
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+      }
+    }
+  }
+
+  .preview {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+    font-weight: 600;
+    color: #444;
+    transition: all 0.2s ease;
+  }
 }

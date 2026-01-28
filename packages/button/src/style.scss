@@ -1,0 +1,72 @@
+.ui-button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Sizes */
+  &.sm {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  &.md {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  &.lg {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  /* Variants */
+  &.primary {
+    background: #2563eb;
+    color: #fff;
+
+    &:hover:not(:disabled) {
+      background: #1d4ed8;
+    }
+  }
+
+  &.secondary {
+    background: #e5e7eb;
+    color: #111827;
+
+    &:hover:not(:disabled) {
+      background: #d1d5db;
+    }
+  }
+
+  &.outline {
+    background: transparent;
+    border: 1px solid #d1d5db;
+    color: #111827;
+
+    &:hover:not(:disabled) {
+      background: #f3f4f6;
+    }
+  }
+
+  &.danger {
+    background: #dc2626;
+    color: #fff;
+
+    &:hover:not(:disabled) {
+      background: #b91c1c;
+    }
+  }
+}
