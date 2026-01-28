@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'build/index.php';
+require_once plugin_dir_path( __FILE__ ) . 'build/build.php';
 
 
 function wpt_init() {
@@ -36,7 +36,8 @@ function wpt_init() {
 add_action( 'admin_menu', 'wpt_init' );
 
 function wpt_enqueue_scripts() {
-    wp_enqueue_script( 'wpt-logger' );
-	wp_enqueue_script( 'wpt-border' );	
+	wp_enqueue_script( 'wpt-button' );
+	wp_enqueue_script( 'wpt-color' );
+	wp_enqueue_script( 'wpt-border' );
 }
 add_action( 'admin_enqueue_scripts', 'wpt_enqueue_scripts' );

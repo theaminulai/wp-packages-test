@@ -1,9 +1,9 @@
 {
   "name": "@wpt/color",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "wpScript": true,
-  "wpStyleEntryPoints":{
-	  "style": "src/style.scss"
-  }
+  "wpStyleEntryPoints": [
+	"src/style.scss"
+  ]
 }

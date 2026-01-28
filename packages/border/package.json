@@ -1,9 +1,6 @@
 {
   "name": "@wpt/border",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "wpScript": true,
-    "wpStyleEntryPoints":{
-	  "style": "src/style.scss"
-  }
+  "main": "src/index.jsx",
+  "wpScript": true
 }

@@ -5,9 +5,9 @@
     "dev": "wp-build --watch"
   },
   "wpPlugin": {
-	"name": "wp-packages-test",
-    "scriptGlobal": "wpPackagesTest",
-    "packageNamespace": "wp-packages-test",
+	"name": "wpPackagesTest",
+    "scriptGlobal": "wpt",
+    "packageNamespace": "wpt",
     "handlePrefix": "wpt"
   },
   "workspaces": [

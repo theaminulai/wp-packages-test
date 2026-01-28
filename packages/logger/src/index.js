@@ -1,1 +1,0 @@
-console.log('Hi from WP Packages Test Logger package');
