@@ -7,18 +7,17 @@
   "wpPlugin": {
     "scriptGlobal": "wpt",
     "packageNamespace": "wpt",
-	"handlePrefix": "wpt"
+    "handlePrefix": "wpt"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@wordpress/build": "^0.3.0",
-    "moment-timezone": "^0.6.0"
+    "@wordpress/build": "^0.6.0"
   },
   "dependencies": {
-    "@wordpress/admin-ui": "^1.3.0",
-    "@wordpress/i18n": "^6.8.0",
-    "react": "^18.3.1"
+    "@wordpress/admin-ui": "^1.6.0",
+    "@wordpress/i18n": "^6.11.0",
+    "react": "^19.2.4"
   }
 }
